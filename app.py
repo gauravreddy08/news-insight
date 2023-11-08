@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
 client = OpenAI(api_key = st.secrets["OPENAI"])
-
+st.markdown("Code in [Github](https://github.com/gauravreddy08/news-insight)")
 company_name = st.text_input("Company Name")
 
 
